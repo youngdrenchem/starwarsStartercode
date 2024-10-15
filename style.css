@@ -5,9 +5,6 @@
   src: url("SFDistantGalaxy.ttf") format("truetype");
 }
 /* phone */
-body {
-  background-color: #e4e7ec;
-}
 
 
 
@@ -15,12 +12,25 @@ h1 {
   font-family: "SF Distant Galaxy";
 }
 
-
+.yoda1{flex-wrap: wrap;
+}
 
 /* computer */
 @media screen and (min-width: 600px) {
+  body {
+    background-color: #f5e400;
+  }
+  h1{color: black;}
+  
+  
+  img{
+    display: flex;
+  justify-content: center;}
+  
+  .links{}
+
+    }
+ 
 
 
-
-}
 
